@@ -1,0 +1,4 @@
+model/      app/code/community/MVentory/URLRewriteFix/Model/
+etc/        app/code/community/MVentory/URLRewriteFix/etc/
+
+module.xml  app/etc/modules/MVentory_URLRewriteFix.xml
