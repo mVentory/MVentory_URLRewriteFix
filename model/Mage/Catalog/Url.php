@@ -39,7 +39,6 @@ class MVentory_URLRewriteFix_Model_Mage_Catalog_Url
    */
   public function getUnusedPath($storeId, $requestPath, $idPath)
   {
-    Mage::log('here');
     if (strpos($idPath, 'product') !== false)
       $suffix = $this->getProductUrlSuffix($storeId);
     else
